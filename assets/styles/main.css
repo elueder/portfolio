@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import 'bootstrap/dist/css/bootstrap.min.css';
 body {
   background: #2f363c;
@@ -122,6 +123,7 @@ button a {
 }
 
 .devicons {
+  content: "";
   font-family: "devicons";
   font-size: 24px;
 }
