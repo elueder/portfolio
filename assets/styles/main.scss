@@ -1,0 +1,280 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+$lightestest: #dce0e8;
+$lightest: #c0c5ce;
+$light: #a5aab6;
+$medium: #65737e;
+$dark: #444f5a;
+$darkest: #2f363c;
+$sans-serif: "Montserrat", sans-serif;
+$handwriting: "Cookie", cursive;
+$grid-spacing: 3%;
+
+body {
+  background: $darkest;
+}
+
+a {
+  font-family: $sans-serif;
+  text-decoration: none;
+}
+
+.wide {
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+h1 {
+  color: $lightestest;
+  font-family: $sans-serif;
+  font-size: 86px;
+  font-weight: 400;
+  margin: 35px;
+  padding: 50px;
+}
+
+h2 {
+  color: $darkest;
+  font-family: $handwriting;
+  font-size: 44px;
+  font-weight: 100;
+  margin: 0;
+  padding: 30px;
+  padding-top: 36px;
+}
+
+h3 {
+  color: $darkest;
+  font-family: $handwriting;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+  padding: 30px;
+}
+
+h4 {
+  color: $dark;
+  font-family: $sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+p {
+  color: $darkest;
+  font-family: $sans-serif;
+  font-weight: 300;
+}
+
+.style1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.col-3 {
+  display: inline-block;
+  // float: left;
+  width: (100% / 4) - ($grid-spacing * 9 / 12) - 3;
+  margin: $grid-spacing - 2;
+  text-align: center;
+  vertical-align: top;
+}
+
+.col-4 {
+  float: left;
+  margin: $grid-spacing - 2;
+  width: (100% / 3) - ($grid-spacing * 8 / 12);
+}
+
+nav {
+  border: $lightestest 2px solid;
+  color: $lightestest;
+  height: 36px;
+  margin: auto;
+  padding: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 750px;
+}
+
+nav p,
+nav a {
+  color: $lightestest;
+  display: inline;
+  margin: 8px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: $sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: $lightest;
+}
+
+button a {
+  height: auto;
+  width: auto;
+}
+
+.devicons {
+  font-size: 24px;
+}
+
+.fab,
+.far {
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.btn-dark {
+  background: $dark;
+  border-radius: 24px;
+  color: $lightest;
+  font-family: $sans-serif;
+  font-size: 14px;
+  margin: 12px;
+  padding: 18px;
+}
+
+.project-button {
+  background-color: $dark;
+  border-radius: 10px;
+  color: $lightestest;
+  font-family: $sans-serif;
+  height: 32px;
+  padding: 4px;
+}
+
+.project-button a {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#name {
+  float: left;
+  margin: 8px;
+}
+
+#portfolio-sections {
+  float: right;
+  margin: 8px;
+}
+
+#intro {
+  height: 600px;
+  text-align: center;
+}
+
+#intro h2 {
+  color: $lightest;
+}
+
+#about-me {
+  background-color: $light;
+  margin: -20;
+  padding: 40px;
+  padding-top: 0;
+  text-align: center;
+}
+
+#profile-pic {
+  clear: left;
+  display: inline;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+#about-me-text {
+  clear: right;
+  display: inline;
+  float: left;
+  width: 60%;
+  padding: 18px;
+}
+
+#about-me-items {
+  width: 90%;
+}
+
+#skills {
+  background-color: $lightest;
+  height: 510px;
+  margin: auto;
+  text-align: center;
+}
+
+#skills h2 {
+  color: $darkest;
+}
+
+#skills h3 {
+  color: $darkest;
+}
+
+#skills li {
+  color: $darkest;
+}
+
+#skills h4 {
+  align-self: center;
+}
+
+#experience {
+  background-color: $light;
+  padding: 30px;
+  text-align: center;
+}
+
+#experience h2 {
+  font-family: $sans-serif;
+  font-size: 40px;
+  padding-bottom: 0;
+}
+
+#experience h4 {
+  font-family: $handwriting;
+  font-size: 28px;
+  margin: 0;
+  padding: 10px;
+}
+
+#projects {
+  background-color: $lightest;
+  height: 580px;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#project-row {
+  margin-left: 20px;
+}
+
+#projects a {
+  color: $lightestest;
+  font-size: 14px;
+}
+
+#projects h3 {
+  margin: 30px;
+  padding: 0;
+}

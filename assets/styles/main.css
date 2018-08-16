@@ -1,0 +1,268 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  background: #2f363c;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.wide {
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+h1 {
+  color: #dce0e8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 86px;
+  font-weight: 400;
+  margin: 35px;
+  padding: 50px;
+}
+
+h2 {
+  color: #2f363c;
+  font-family: "Cookie", cursive;
+  font-size: 44px;
+  font-weight: 100;
+  margin: 0;
+  padding: 30px;
+  padding-top: 36px;
+}
+
+h3 {
+  color: #2f363c;
+  font-family: "Cookie", cursive;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+  padding: 30px;
+}
+
+h4 {
+  color: #444f5a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+p {
+  color: #2f363c;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.style1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 19.75%;
+  margin: 1%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.col-4 {
+  float: left;
+  margin: 1%;
+  width: 31.3333333333%;
+}
+
+nav {
+  border: #dce0e8 2px solid;
+  color: #dce0e8;
+  height: 36px;
+  margin: auto;
+  padding: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  width: 750px;
+}
+
+nav p,
+nav a {
+  color: #dce0e8;
+  display: inline;
+  margin: 8px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-bottom: 4px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: #c0c5ce;
+}
+
+button a {
+  height: auto;
+  width: auto;
+}
+
+.devicons {
+  font-size: 24px;
+}
+
+.fab,
+.far {
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.btn-dark {
+  background: #444f5a;
+  border-radius: 24px;
+  color: #c0c5ce;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 12px;
+  padding: 18px;
+}
+
+.project-button {
+  background-color: #444f5a;
+  border-radius: 10px;
+  color: #dce0e8;
+  font-family: "Montserrat", sans-serif;
+  height: 32px;
+  padding: 4px;
+}
+
+.project-button a {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#name {
+  float: left;
+  margin: 8px;
+}
+
+#portfolio-sections {
+  float: right;
+  margin: 8px;
+}
+
+#intro {
+  height: 600px;
+  text-align: center;
+}
+
+#intro h2 {
+  color: #c0c5ce;
+}
+
+#about-me {
+  background-color: #a5aab6;
+  margin: -20;
+  padding: 40px;
+  padding-top: 0;
+  text-align: center;
+}
+
+#profile-pic {
+  clear: left;
+  display: inline;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+#about-me-text {
+  clear: right;
+  display: inline;
+  float: left;
+  width: 60%;
+  padding: 18px;
+}
+
+#about-me-items {
+  width: 90%;
+}
+
+#skills {
+  background-color: #c0c5ce;
+  height: 510px;
+  margin: auto;
+  text-align: center;
+}
+
+#skills h2 {
+  color: #2f363c;
+}
+
+#skills h3 {
+  color: #2f363c;
+}
+
+#skills li {
+  color: #2f363c;
+}
+
+#skills h4 {
+  align-self: center;
+}
+
+#experience {
+  background-color: #a5aab6;
+  padding: 30px;
+  text-align: center;
+}
+
+#experience h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding-bottom: 0;
+}
+
+#experience h4 {
+  font-family: "Cookie", cursive;
+  font-size: 28px;
+  margin: 0;
+  padding: 10px;
+}
+
+#projects {
+  background-color: #c0c5ce;
+  height: 580px;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#project-row {
+  margin-left: 20px;
+}
+
+#projects a {
+  color: #dce0e8;
+  font-size: 14px;
+}
+
+#projects h3 {
+  margin: 30px;
+  padding: 0;
+}
+
+/*# sourceMappingURL=main.css.map */
