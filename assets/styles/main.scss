@@ -185,7 +185,7 @@ button a {
 }
 
 #about-me {
-  background-color: $light;
+  background-color: $lightest;
   margin: -20;
   padding: 40px;
   padding-top: 0;
@@ -212,9 +212,10 @@ button a {
 }
 
 #skills {
-  background-color: $lightest;
+  background-color: $lightestest;
   height: 510px;
   margin: auto;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -235,7 +236,7 @@ button a {
 }
 
 #experience {
-  background-color: $light;
+  background-color: $lightest;
   padding: 30px;
   text-align: center;
 }
@@ -243,7 +244,7 @@ button a {
 #experience h2 {
   font-family: $sans-serif;
   font-size: 40px;
-  padding-bottom: 0;
+  padding-bottom: 40px;
 }
 
 #experience h4 {
@@ -254,10 +255,9 @@ button a {
 }
 
 #projects {
-  background-color: $lightest;
+  background-color: $lightestest;
   height: 580px;
   margin: auto;
-  padding-bottom: 20px;
   text-align: center;
 }
 

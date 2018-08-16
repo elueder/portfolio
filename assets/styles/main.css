@@ -171,7 +171,7 @@ button a {
 }
 
 #about-me {
-  background-color: #a5aab6;
+  background-color: #c0c5ce;
   margin: -20;
   padding: 40px;
   padding-top: 0;
@@ -198,9 +198,10 @@ button a {
 }
 
 #skills {
-  background-color: #c0c5ce;
+  background-color: #dce0e8;
   height: 510px;
   margin: auto;
+  padding-bottom: 10px;
   text-align: center;
 }
 
@@ -221,7 +222,7 @@ button a {
 }
 
 #experience {
-  background-color: #a5aab6;
+  background-color: #c0c5ce;
   padding: 30px;
   text-align: center;
 }
@@ -229,7 +230,7 @@ button a {
 #experience h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
-  padding-bottom: 0;
+  padding-bottom: 40px;
 }
 
 #experience h4 {
@@ -240,10 +241,9 @@ button a {
 }
 
 #projects {
-  background-color: #c0c5ce;
+  background-color: #dce0e8;
   height: 580px;
   margin: auto;
-  padding-bottom: 20px;
   text-align: center;
 }
 
