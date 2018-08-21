@@ -19,11 +19,12 @@ a {
 
 h1 {
   color: #c6e2ff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 86px;
-  font-weight: 400;
+  font-family: "Cookie", cursive;
+  font-size: 104px;
+  font-weight: 100;
   margin: 35px;
   padding: 50px;
+  padding-top: 100px;
 }
 
 h2 {
@@ -154,6 +155,12 @@ button a {
   padding-right: 4px;
 }
 
+.line {
+  background-color: white;
+  height: 10px;
+  margin: 0;
+}
+
 #name {
   float: left;
   margin: 8px;
@@ -171,11 +178,13 @@ button a {
 
 #intro h2 {
   color: #c6e2ff;
+  padding-top: 24px;
 }
 
 #about-me {
   background-color: #c0c5ce;
   margin: -20;
+  min-height: 580px;
   padding: 40px;
   padding-top: 0;
   text-align: center;
