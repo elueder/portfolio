@@ -2,6 +2,7 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+$accent: #c6e2ff;
 $lightestest: #dce0e8;
 $lightest: #c0c5ce;
 $light: #a5aab6;
@@ -17,6 +18,7 @@ body {
 }
 
 a {
+  color: $accent;
   font-family: $sans-serif;
   text-decoration: none;
 }
@@ -30,7 +32,7 @@ a {
 }
 
 h1 {
-  color: $lightestest;
+  color: $accent;
   font-family: $sans-serif;
   font-size: 86px;
   font-weight: 400;
@@ -91,8 +93,8 @@ p {
 }
 
 nav {
-  border: $lightestest 2px solid;
-  color: $lightestest;
+  border: $accent 2px solid;
+  color: $accent;
   height: 36px;
   margin: auto;
   padding: 14px;
@@ -104,7 +106,7 @@ nav {
 
 nav p,
 nav a {
-  color: $lightestest;
+  color: $accent;
   display: inline;
   margin: 8px;
 }
@@ -127,10 +129,11 @@ footer {
 }
 
 footer p {
-  color: $lightest;
+  color: $accent;
 }
 
 button a {
+  color: $accent;
   height: auto;
   width: auto;
 }
@@ -144,7 +147,7 @@ button a {
 .btn-dark {
   background: $dark;
   border-radius: 24px;
-  color: $lightest;
+  color: $accent;
   font-family: $sans-serif;
   font-size: 14px;
   margin: 12px;
@@ -154,13 +157,14 @@ button a {
 .project-button {
   background-color: $dark;
   border-radius: 10px;
-  color: $lightestest;
+  color: $accent;
   font-family: $sans-serif;
   height: 32px;
   padding: 4px;
 }
 
 .project-button a {
+  color: $accent;
   padding-left: 4px;
   padding-right: 4px;
 }
@@ -181,7 +185,7 @@ button a {
 }
 
 #intro h2 {
-  color: $lightest;
+  color: $accent;
 }
 
 #about-me {
@@ -205,6 +209,7 @@ button a {
   float: left;
   width: 60%;
   padding: 18px;
+  text-align: left;
 }
 
 #about-me-items {
@@ -242,16 +247,25 @@ button a {
 }
 
 #experience h2 {
-  font-family: $sans-serif;
-  font-size: 40px;
   padding-bottom: 40px;
 }
 
 #experience h4 {
-  font-family: $handwriting;
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   padding: 10px;
+}
+
+#experience p {
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: left;
+  width: 50%;
+}
+
+#experience .education {
+  text-align: center;
 }
 
 #projects {
@@ -266,7 +280,7 @@ button a {
 }
 
 #projects a {
-  color: $lightestest;
+  color: $accent;
   font-size: 14px;
 }
 

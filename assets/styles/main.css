@@ -4,6 +4,7 @@ body {
 }
 
 a {
+  color: #c6e2ff;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
@@ -17,7 +18,7 @@ a {
 }
 
 h1 {
-  color: #dce0e8;
+  color: #c6e2ff;
   font-family: "Montserrat", sans-serif;
   font-size: 86px;
   font-weight: 400;
@@ -77,8 +78,8 @@ p {
 }
 
 nav {
-  border: #dce0e8 2px solid;
-  color: #dce0e8;
+  border: #c6e2ff 2px solid;
+  color: #c6e2ff;
   height: 36px;
   margin: auto;
   padding: 14px;
@@ -90,7 +91,7 @@ nav {
 
 nav p,
 nav a {
-  color: #dce0e8;
+  color: #c6e2ff;
   display: inline;
   margin: 8px;
 }
@@ -113,10 +114,11 @@ footer {
 }
 
 footer p {
-  color: #c0c5ce;
+  color: #c6e2ff;
 }
 
 button a {
+  color: #c6e2ff;
   height: auto;
   width: auto;
 }
@@ -130,7 +132,7 @@ button a {
 .btn-dark {
   background: #444f5a;
   border-radius: 24px;
-  color: #c0c5ce;
+  color: #c6e2ff;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   margin: 12px;
@@ -140,13 +142,14 @@ button a {
 .project-button {
   background-color: #444f5a;
   border-radius: 10px;
-  color: #dce0e8;
+  color: #c6e2ff;
   font-family: "Montserrat", sans-serif;
   height: 32px;
   padding: 4px;
 }
 
 .project-button a {
+  color: #c6e2ff;
   padding-left: 4px;
   padding-right: 4px;
 }
@@ -167,7 +170,7 @@ button a {
 }
 
 #intro h2 {
-  color: #c0c5ce;
+  color: #c6e2ff;
 }
 
 #about-me {
@@ -191,6 +194,7 @@ button a {
   float: left;
   width: 60%;
   padding: 18px;
+  text-align: left;
 }
 
 #about-me-items {
@@ -228,16 +232,25 @@ button a {
 }
 
 #experience h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
   padding-bottom: 40px;
 }
 
 #experience h4 {
-  font-family: "Cookie", cursive;
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   padding: 10px;
+}
+
+#experience p {
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: left;
+  width: 50%;
+}
+
+#experience .education {
+  text-align: center;
 }
 
 #projects {
@@ -252,7 +265,7 @@ button a {
 }
 
 #projects a {
-  color: #dce0e8;
+  color: #c6e2ff;
   font-size: 14px;
 }
 
