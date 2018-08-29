@@ -179,7 +179,9 @@ button a {
 
 #intro h2 {
   color: #c6e2ff;
-  padding-top: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  padding-top: 18px;
 }
 
 #about-me {
